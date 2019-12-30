@@ -19,3 +19,7 @@ In next few steps you will see how to create hash keys.
 hashKey in debugMode is different releaseMode 
 when get hashkey for release share with your server 
 
+## Documentation 
+([see Documentation in google
+`Google Documentation`]( https://developers.google.com/identity/sms-retriever/overview)
+
