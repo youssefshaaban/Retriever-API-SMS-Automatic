@@ -11,8 +11,11 @@ The SMS Retriever API is available only on Android devices with Play services ve
 The standard SMS format is given blow.
 
     <#> Your ExampleApp code is: 123ABC78 
-    FA+9qCX9VSu
+    fGXfpK7Ticp
 
-SMS alwayse starts with <#> sign and have a hash key FA+9qCX9VSu to identify your app it is generated with your app's package id. You just need to get this has key from app and share with your server. 
+SMS alwayse starts with <#> sign and have a hash key fGXfpK7Ticp to identify your app it is generated with your app's package id. You just need to get this has key from app and share with your server. 
 In next few steps you will see how to create hash keys.
+## Important
+hashKey in debugMode is different releaseMode 
+when get hashkey for release share with your server 
 
