@@ -42,7 +42,7 @@ class MySMSBroadcastReceiver : BroadcastReceiver() {
                                 .toTypedArray()
                         //Extract the OTP code and send to the listener
                         if (otpListener!=null)
-                            otpListener!!.onReceiveOTPMessage(splitMessage[splitMessage.size-1])
+                            otpListener!!.onReceiveOTPMessage(splitMessage[splitMessage.size-1].split("\n".toRegex()).toTypedArray()[0])
                     }
                     CommonStatusCodes.TIMEOUT -> {
                         // Waiting for SMS timed out (5 minutes)
