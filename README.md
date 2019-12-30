@@ -20,6 +20,5 @@ hashKey in debugMode is different releaseMode
 when get hashkey for release share with your server 
 
 ## Documentation 
-([see Documentation in google
-`Google Documentation`]( https://developers.google.com/identity/sms-retriever/overview)
+(`Google Documentation`]( https://developers.google.com/identity/sms-retriever/overview)
 
