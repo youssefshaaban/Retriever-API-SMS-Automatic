@@ -22,8 +22,6 @@ when get hashkey for release share with your server
 [(`see more details Google Documentation`]( https://developers.google.com/identity/sms-retriever/overview))
 
 ## libraries in dependency
-The standard SMS format is given blow.
-
     implementation 'com.google.android.gms:play-services-auth:17.0.0'
     implementation 'com.google.android.gms:play-services-auth-api-phone:17.3.0'
 
